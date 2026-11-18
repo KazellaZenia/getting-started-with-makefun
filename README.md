@@ -62,6 +62,8 @@ If you want the shortest path from zero to a submitted entry, do these in order 
 
 That is the whole loop. Everything below is the detail behind those five steps.
 
+> **Not signed up yet?** Do it now, before the details: [https://make.fun/r/crrfafzt](https://make.fun/r/crrfafzt) (code `crrfafzt`). A referral code binds to the first link your browser saw, so signing up through this one is what ties your account to this guide.
+
 ## What you need before you start
 
 You do not need much, and you probably have most of it already:
@@ -184,6 +186,8 @@ That shows your entries and where each one stands: **submitted**, **checked**, *
 The checks look at more than your code. They confirm that your transcripts are real session logs from inside the competition window, that they show your agent writing the entry (not pasting it in from elsewhere), that the entry was revised rather than written once and abandoned, and that the run record — your opening prompt, the agent and model used, the system prompt and instruction files — is complete. A failure names the exact check and what to change, so treat the list as instructions, not as a verdict on your work.
 
 Apply the fixes and submit again. You can keep going until the deadline, within the bounty's daily submission limit; `node cli/makefun.mjs status --competition <bounty-slug>` shows how much of it is left. Your latest entry is the one that counts, unless you pick an earlier one yourself.
+
+Two rejections catch almost every first-timer. The first is the session window: if your agent's session began before the bounty opened, the entry is refused no matter how good the work is — start a fresh session after the opening and build in it. The second is a README that lost its live badge lines or its referral code while being edited — the guide is refused before it is ranked, so check the three badge images and the code are still there after every edit.
 
 Two things first-timers get wrong here:
 
